@@ -1,5 +1,6 @@
 const UNSPLASH_URL = "https://api.unsplash.com";
-const ACCESS_KEY = "roBmUf8hNdWMylpg2xDrJXZJjYmYLj6QRMWk8fXv-ao";
+//const ACCESS_KEY = "roBmUf8hNdWMylpg2xDrJXZJjYmYLj6QRMWk8fXv-ao";
+const ACCESS_KEY = "MMLTYROgdwdeV_IPxAWXmThrk7A0Jzog7_AYMNTjk_8";
 
 export const fetchImages = async (query, page = 1) => {
   if (query === "") query = undefined;
